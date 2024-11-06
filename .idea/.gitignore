@@ -1,0 +1,9 @@
+# Default
+/shelf/
+/workspace.xml
+
+# Virtual Environment
+.venv
+
+# Idea
+.idea
