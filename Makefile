@@ -25,3 +25,7 @@ lint:
 .PHONY: clean
 clean:
 	pre-commit clean
+
+.PHONY: test
+test:
+	pytest test/

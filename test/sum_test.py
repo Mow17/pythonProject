@@ -2,7 +2,7 @@
 """
 import unittest
 
-from ..sum import sum_int
+from src.sum import sum_int
 
 
 class MyTestCase(unittest.TestCase):

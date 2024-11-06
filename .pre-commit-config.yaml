@@ -30,3 +30,11 @@ repos:
     rev: 1.16.1
     hooks:
       - id: yamlfix
+# pytest hook to run tests under the test/ directory
+  - repo: local
+    hooks:
+      - id: pytest
+        name: test
+        entry: pytest -v -s test
+        stages: [push]
+        language: system
